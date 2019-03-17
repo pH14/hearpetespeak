@@ -1,0 +1,42 @@
+list:
+
+  - title: Values
+    icon_class: fas
+    icon_name: fa-heartbeat
+
+  - title: Democracy
+    icon_class: fas
+    icon_name: fa-users
+
+  - title: Experience
+    icon_class: fas
+    icon_name: fa-briefcase
+
+  - title: Education
+    icon_class: fas
+    icon_name: fa-university
+
+  - title: Foreign Policy
+    icon_class: fas
+    icon_name: fa-globe-americas
+
+  - title: LGBTQ Rights
+    icon_class: fas
+    icon_name: fa-rainbow
+
+  - title: Healthcare
+    icon_class: fas
+    icon_name: fa-hospital
+
+  - 
+    title: Climate
+    icon_class: fas
+    icon_name: fa-temperature-high
+
+  - title: Military
+    icon_class: fas
+    icon_name: fa-fighter-jet
+
+  - title: Economy
+    icon_class: fas
+    icon_name: fa-money-bill

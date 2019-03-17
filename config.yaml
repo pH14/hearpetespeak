@@ -1,0 +1,12 @@
+baseURL: 'https://hearpetespeak.com/'
+languageCode: en-us
+title: Hear Pete Speak
+
+params:
+  title: Hear Pete Speak
+  profile:
+    photo: pete.jpg
+    description: >- 
+      _Hear Pete Speak_ is a catalogue of Pete Buttigieg's responses sourced from publicly-available interviews. 
+      We are wholly unaffiliated with the Pete for America campaign. We strive to keep the 
+      catalogue up-to-date, and updates and suggestions can be submitted by anyone via [GitHub](https://github.com/pH14/hearpetespeak).

@@ -1,0 +1,58 @@
+<head>
+  <title>{{ .Site.Params.title }}</title>
+
+  <meta name="theme-color" content="#fff" />
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="{{ .Site.Params.description }}" />
+  <meta name="author" content="{{ .Site.Params.author }}" />
+
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Cardo|Catamaran"
+    rel="stylesheet"
+  />
+
+  <style>
+    html {
+      width: 100vw;
+    }
+    * {
+      font-family: "Catamaran", sans-serif;
+    }
+    h1,
+    h2,
+    h3 {
+      font-family: "Cardo", serif;
+    }
+    .justified {
+      text-align: justify;
+    }
+    .zoomlink:hover {
+      transform: scale(1.1);
+      transition: transform .2s;
+    }
+    a:hover {
+	    text-decoration: none;
+	    color: inherit;
+    }
+    .panel {
+      font-size: 18px;
+    }
+    .pullquote {
+      background-color: #EEE;
+      font-family: "Cardo", serif;
+    }
+  </style>
+</head>

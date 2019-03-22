@@ -28,8 +28,7 @@ list:
     icon_class: fas
     icon_name: fa-hospital
 
-  - 
-    title: Climate
+  - title: Climate
     icon_class: fas
     icon_name: fa-temperature-high
 
@@ -40,3 +39,7 @@ list:
   - title: Economy
     icon_class: fas
     icon_name: fa-money-bill
+    
+  - title: Technology
+    icon_class: fas
+    icon_name: fa-robot

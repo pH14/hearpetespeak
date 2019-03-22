@@ -4,8 +4,32 @@ description: Interview on Pod Save America with Dan Pfeiffer
 
 topics:
   -
-    categories: "Economy"
-    direct_link: "https://youtu.be/gsrjkQt60vI"
+    categories: "All"
+    direct_link: "https://www.youtube.com/watch?v=gsrjkQt60vI"
   -
-    categories: "Military"
-    direct_link: "https://youtu.be/gsrjkQt60vI"
+    categories: "Economy"
+    direct_link: "https://youtu.be/gsrjkQt60vI?t=2604"
+    tags:
+        - automation
+        - globalization
+        - employment
+        - universal basic income
+  -
+    categories: "Healthcare"
+    direct_link: "https://www.youtube.com/watch?v=gsrjkQt60vI&t=2298"
+    tags:
+        - Medicare for All
+  -
+    categories: "Climate"
+    direct_link: "https://www.youtube.com/watch?v=gsrjkQt60vI&t=1574"
+    tags:
+        - Green New Deal
+  -
+    categories: "Democracy"
+    direct_link: "https://youtu.be/gsrjkQt60vI?t=628"
+    tags:
+        - Puerto Rico
+        - Washington D.C.
+        - Supreme Court
+        - Citizens United
+        - filibuster

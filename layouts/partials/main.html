@@ -1,18 +1,17 @@
-<div class="ml-auto mr-auto row row-eq-height mt-4">
-  <div class="col-md-5 text-center rounded border-light p-2 mb-4">
+<div class="row">
+  <div class="five columns u-full-width rounded border-light p-2 mb-4 mt-2">
     {{ partial "profile_photo.html" . }}
-    <h1 class="text-dark mb-0">{{ .Site.Params.profile.name }}</h1>
-    <div class="justified pl-2 pr-2">
-      {{ .Site.Params.profile.description | markdownify }}
+    <div class="justified mt-2 pl-2 pr-2">
+      {{ .Site.Params.description | markdownify }}
     </div>
   </div>
-  <div class="col-md-7 border rounded p-2">
+  <div class="six columns p-2 offset-by-one mt-2">
     {{ range sort .Site.Data.categories.list "title" }}
       {{ partial "topic" (dict "sources" $.Site.Data.sources "category" .) }}
     {{ end }}
   </div>
 </div>
-<div class="ml-auto mr-auto row">
+<div class="container row">
   <div class="col-md text-center rounded border-light">
     {{ partial "footer.html" . }}
   </div>

@@ -30,6 +30,12 @@
           <a class="text-primary" href="{{ .category.direct_link }}">
             <i>{{ .source.title }}</i>
           </a>
+          {{ if .category.tags }}
+            &middot;
+            <p class="text-tags">
+              {{ delimit .category.tags ", " }}
+            </p>
+          {{ end }}
         </dd>
 
         {{ if .pullquote }}

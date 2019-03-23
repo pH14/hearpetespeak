@@ -4,8 +4,19 @@ description: CNN Town Hall
 
 topics:
   -
+    categories: "All"
+    direct_link: "https://www.youtube.com/watch?v=qXD8uFU-xgM"
+  -
     categories: "Climate"
     direct_link: "https://youtu.be/qXD8uFU-xgM?t=2496"
+    tags:
+        - flooding
+        - fires
+        - sea level rise
+        - climate security
+        - Paris Accord
+        - renewable energy
+        - carbon tax
   -
     categories: "Experience"
     direct_link: "https://youtu.be/qXD8uFU-xgM?t=110"
@@ -14,22 +25,57 @@ topics:
     direct_link: "https://www.youtube.com/watch?v=IRRjQdRUuHs&t=1801"
   -
     categories: "Economy"
-    direct_link: "https://youtu.be/qXD8uFU-xgM?t=227"    
+    direct_link: "https://youtu.be/qXD8uFU-xgM?t=227" 
+    tags:
+        - automation
+        - portable benefits
+        - Medicare for All
+        - guaranteed income
+        - universal basic income
   -
     categories: "Healthcare"
     direct_link: "https://youtu.be/qXD8uFU-xgM?t=459"  
+    tags:
+        - Medicare
+        - Medicare for All
   -
     categories: "LGBTQ Rights"
     direct_link: "https://youtu.be/qXD8uFU-xgM?t=742"
+    tags:
+        - gay marriage
+        - transgender rights
+        - Federal Equality Act
+        - Religious Freedom Restoration Act
+        - Mike Pence
+        - Indiana
   -
     categories: "Foreign Policy"
     direct_link: "https://youtu.be/qXD8uFU-xgM?t=1169"
+    tags:
+        - Afghanistan
+        - national service
+        - veteran services
+        - Venezuela
   -
     categories: "Military"
-    direct_link: "https://youtu.be/qXD8uFU-xgM?t=1169"  
+    direct_link: "https://youtu.be/qXD8uFU-xgM?t=1169"
+    tags:
+        - Afghanistan
+        - national service
+        - veteran services
+        - Venezuela
   -
     categories: "Democracy"
     direct_link: "https://www.youtube.com/watch?v=L9jgouNb504&t=1059"
+    tags:
+        - Electoral College
+        - voting rights
+        - Supreme Court
   -
     categories: "Technology"
     direct_link: "https://www.youtube.com/watch?v=IRRjQdRUuHs&t=2075"
+    tags:
+        - monopoly policy
+        - data privacy
+        - Facebook
+        - national data policy

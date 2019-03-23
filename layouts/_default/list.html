@@ -1,0 +1,18 @@
+{{ partial "head.html" . }}
+
+{{ .Content }}
+
+hi
+
+<ul>
+    {{ $type := .Type }}
+    {{ range $key, $value := .Data.Terms.ByCount.Reverse }}
+        {{ $name := .Name }}
+        {{ $count := .Count }}
+        {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+            <li><a href="{{ .Permalink }}">{{ $name }}</a> {{ $count }}</li>
+        {{ end }}
+    {{ end }}
+</ul>
+
+{{ partial "footer.html" . }}

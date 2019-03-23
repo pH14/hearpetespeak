@@ -39,7 +39,15 @@ list:
   - title: Economy
     icon_class: fas
     icon_name: fa-money-bill
-
+    
+  - title: Women's Health
+    icon_class: fas
+    icon_name: fa-venus
+    
+  - title: Technology
+    icon_class: fas
+    icon_name: fa-robot
+    
   - title: All
     icon_class: fas
     icon_name: play-circle

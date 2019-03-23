@@ -1,6 +1,5 @@
 title: UChicago Institute of Politics
 date: 2019-02-13
-description:
 
 topics:
   -
@@ -18,6 +17,7 @@ topics:
   -
     categories: "Foreign Policy"
     direct_link: "https://youtu.be/WAwMTWi-rgI?t=3035"
+    tags:
         - military intervention
         - Venezuela
         - regime change

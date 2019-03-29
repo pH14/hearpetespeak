@@ -14,3 +14,63 @@ topics:
         - healthcare
         - gun control
         - climate
+  -
+    categories: "Values"
+    direct_link: "https://youtu.be/yxH30Nx17H4?t=140"
+    tags:
+        - socialism
+        - capitalism
+        - ideas that work
+        - democracy
+  -
+    categories: "Women's Rights"
+    direct_link: "https://youtu.be/yxH30Nx17H4?t=242"
+    tags:
+        - abortion
+        - pro-choice
+        - medical complications
+  -
+    categories: "Foreign Policy"
+    direct_link: "https://youtu.be/yxH30Nx17H4?t=339"
+    tags:
+        - North Korea
+        - diplomatic pressure
+        - sanctions
+  -
+    categories: "Values"
+    direct_link: "https://youtu.be/yxH30Nx17H4?t=430"
+    tags:
+        - curiosity
+        - innovation
+        - entrepreneurship
+  -
+    categories: "Experience"
+    direct_link: "https://youtu.be/yxH30Nx17H4?t=498"
+    tags:
+        - South Bend
+        - mayors
+        - executive experience
+        - economic development
+        - emergency operations
+        - shootings
+        - community
+        - government experience
+        - deployed military experience
+  -
+    categories: "Healthcare"
+    direct_link: "https://youtu.be/yxH30Nx17H4?t=668"
+    tags:
+        - ACA
+        - Medicare for All
+        - single-payer
+  -
+    categories: "Gun Control"
+    direct_link: "https://youtu.be/yxH30Nx17H4?t=745"
+    tags:
+        - universal background checks
+  -
+    categories: "Climate"
+    direct_link: "https://youtu.be/yxH30Nx17H4?t=770"
+    tags:
+        - emergency
+        - Green New Deal

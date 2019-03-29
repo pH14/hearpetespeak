@@ -59,3 +59,7 @@ list:
   - title: Disability Rights
     icon_class: fas
     icon_name: fa-accessible-icon
+    
+  - title: Infrastructure
+    icon_class: fas
+    icon_name: fa-train

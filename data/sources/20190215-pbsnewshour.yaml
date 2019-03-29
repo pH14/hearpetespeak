@@ -6,9 +6,39 @@ topics:
   -
     categories: "All"
     direct_link: "https://www.youtube.com/watch?v=IpeNWhbbyDI"
+  -
+    categories: "Tax Policy"
+    direct_link: "https://youtu.be/IpeNWhbbyDI?t=117"
     tags:
-        - tax policy
+        - concentration of wealth
+        - democracy
+        - taxing wealth more than work
+        - financial transactions tax
+        - top marginal tax rates
+        - effective tax rates for wealthy
+  -
+    categories: "Security"
+    direct_link: "https://youtu.be/IpeNWhbbyDI?t=175"
+    tags:
         - border security
-        - climate change
-        - healthcare
+        - cybersecurity
+        - climate security 
+  -
+    categories: "Climate"
+    direct_link: "https://youtu.be/IpeNWhbbyDI?t=242"
+    tags:
+        - national emergency
+        - legislative process
+        - presidential priority
+  -
+    categories: "Healthcare"
+    direct_link: "https://youtu.be/IpeNWhbbyDI?t=306"
+    tags:
         - Medicare for All
+        - public option
+  -
+    categories: "LGBTQ Rights"
+    direct_link: "https://youtu.be/IpeNWhbbyDI?t=388"
+    tags:
+        - coming out
+        - transgender rights and dignity

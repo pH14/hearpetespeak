@@ -33,8 +33,10 @@ h3 {
 }
 .text-tags {
   font-size: .85em;
+  padding-top: .2em;
+  padding-left: 2em;
 }
-a, a:hover, a:visited, a.text-primary:hover, a.text-primary:visited {
+a, a:link, a:hover, a:visited, a.text-primary:hover, a.text-primary:visited {
   color: #007bff;
   text-decoration: none;
 }
@@ -77,6 +79,10 @@ a, a:hover, a:visited, a.text-primary:hover, a.text-primary:visited {
   max-height: 300px;
 }
 */
+.tab input:checked ~ .tab-content dl dd:nth-child(n+3) {
+  display: none;
+}
+
 .tab input:checked ~ label .spin {
   -ms-transform:rotate(360deg);     /* Internet Explorer 9 */
   -webkit-transform:rotate(360deg); /* Chrome, Safari, Opera */
@@ -92,7 +98,7 @@ a, a:hover, a:visited, a.text-primary:hover, a.text-primary:visited {
 .container {
 position: relative;
 width: 100%;
-max-width: 960px;
+max-width: 1100px;
 margin: 0 auto;
 padding: 0 20px;
 box-sizing: border-box; }
@@ -404,7 +410,7 @@ clear: both; }
 a {
   text-decoration: none;
 }
-a:hover {
+/*a:hover {
   text-decoration: none;
   color: inherit;
 }
@@ -412,7 +418,7 @@ a:visited {
   text-decoration: none;
   color: inherit;
 }
-
+*/
   </style>
 
 </head>

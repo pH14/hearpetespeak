@@ -71,3 +71,7 @@ list:
   - title: Immigration
     icon_class: fas
     icon_name: fa-passport
+
+  - title: Gun Violence Prevention
+    icon_class: gi
+    icon_name: gi-gun

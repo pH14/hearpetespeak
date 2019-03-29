@@ -63,3 +63,7 @@ list:
   - title: Infrastructure
     icon_class: fas
     icon_name: fa-train
+
+  - title: Gun Control
+    icon_class: gi
+    icon_name: gi-gun

@@ -67,3 +67,7 @@ list:
   - title: Tax Policy
     icon_class: fas
     icon_name: fa-dollar-sign
+    
+  - title: Immigration
+    icon_class: fas
+    icon_name: fa-passport

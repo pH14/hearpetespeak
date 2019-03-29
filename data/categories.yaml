@@ -57,7 +57,7 @@ list:
     icon_name: fa-hands-helping
 
   - title: Disability Rights
-    icon_class: fas
+    icon_class: fab
     icon_name: fa-accessible-icon
     
   - title: Infrastructure

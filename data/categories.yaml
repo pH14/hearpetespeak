@@ -48,6 +48,14 @@ list:
     icon_class: fas
     icon_name: fa-robot
     
-  - title: All
+  - title: Marijuana
     icon_class: fas
-    icon_name: play-circle
+    icon_name: fa-cannabis
+    
+  - title: Racial Justice
+    icon_class: fas
+    icon_name: fa-hands-helping
+
+  - title: Disability Rights
+    icon_class: fas
+    icon_name: fa-accessible-icon

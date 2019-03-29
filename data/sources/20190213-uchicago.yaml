@@ -3,8 +3,11 @@ date: 2019-02-13
 
 topics:
   -
-    categories: "Gun Control"
+    categories: "All"
     direct_link: "https://www.youtube.com/watch?v=WAwMTWi-rgI"
+  -
+    categories: "Gun Violence Prevention"
+    direct_link: "https://youtu.be/WAwMTWi-rgI?t=2388"
     tags:
         - universal background checks
         - bump stocks
@@ -50,7 +53,7 @@ topics:
         - international aid
         - soft-power deployments
   -
-    categories: "Women's Health"
+    categories: "Women's Rights"
     direct_link: "https://youtu.be/WAwMTWi-rgI?t=3767"
     tags:
         - Hyde Amendment

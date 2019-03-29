@@ -40,7 +40,7 @@ list:
     icon_class: fas
     icon_name: fa-money-bill
     
-  - title: Women's Health
+  - title: Women's Rights
     icon_class: fas
     icon_name: fa-venus
     
@@ -64,6 +64,14 @@ list:
     icon_class: fas
     icon_name: fa-train
 
-  - title: Gun Control
+  - title: Tax Policy
+    icon_class: fas
+    icon_name: fa-dollar-sign
+    
+  - title: Immigration
+    icon_class: fas
+    icon_name: fa-passport
+
+  - title: Gun Violence Prevention
     icon_class: gi
     icon_name: gi-gun

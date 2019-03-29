@@ -13,3 +13,33 @@ topics:
         - foreign policy
         - Venezuela
         - North Korea
+  -
+    categories: "Experience"
+    direct_link: "https://youtu.be/ZitWbxZwcqQ?t=82"
+    tags:
+        - city tranformation
+        - government
+        - executive
+        - problem-solving
+  -
+    categories: "Healthcare"
+    direct_link: "https://youtu.be/ZitWbxZwcqQ?t=121"
+    tags:
+        - Medicare for All
+        - Medicare supplements
+        - Medicare Advantage
+        - role for private sector
+        - single-payer
+        - public option
+        - ACA
+  -
+    categories: "Foreign Policy"
+    direct_link: "https://youtu.be/ZitWbxZwcqQ?t=285"
+    tags:
+        - Venezuela
+        - Maduro
+        - Iraq war
+        - American troop commitment
+        - targeted sanctions
+        - North Korea
+        - intelligence assessments

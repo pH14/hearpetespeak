@@ -5,40 +5,49 @@
 {{ range .sources }}
   {{ $source := . }}
   {{ range .topics }}
-    {{ if in .categories $category }}
+    {{ if and (in .categories $category) (ne "All" $category) }}
        {{ $all_entries = $all_entries | append (dict "date" $source.date "source" $source "category" .) }}
     {{ end }}
- {{ end }}
+  {{ end }}
 {{ end }}
+
+{{ if (ne "All" $category) }}
 
 <div class="tab row" id="/{{ .category.title }}">
 
-  <input id="tab-{{ .category.title }}" type="checkbox" name="tabs">
-  <label for="tab-{{ .category.title }}" class="spin">
-    <h2 class="text-primary" id="{{ .category.title }}">
-      <i class="spin text-primary {{ .category.icon_class }} {{ .category.icon_name }} fa-fw"></i>
-      <a href="#/{{ .category.title }}">{{ .category.title }}</a>
-    </h2>
-  </label>
+    <input id="tab-{{ .category.title }}" type="checkbox" name="tabs">
+    <label for="tab-{{ .category.title }}" class="spin">
+      <h2 class="text-primary" id="{{ .category.title }}">
+        <i class="spin text-primary {{ .category.icon_class }} {{ .category.icon_name }} fa-fw"></i>
+        <a href="#/{{ .category.title }}">{{ .category.title }}</a>
+      </h2>
+    </label>
 
-  <div class="tab-content">
-    <dl>
+    <div class="tab-content">
+      <dl>
 
-      {{ range sort $all_entries "date" "desc" }}
-        <dd class="text-dark mb-0 ml-2 source-link">
-          {{ .date }} &middot;
-          <a class="text-primary" href="{{ .category.direct_link }}">
-            <i>{{ .source.title }}</i>
-          </a>
-        </dd>
+        {{ range sort $all_entries "date" "desc" }}
+          <dd class="text-dark mb-0 ml-2 source-link">
+            {{ .date }} &middot;
+            <a class="text-primary" href="{{ .category.direct_link }}">
+              <i>{{ .source.title }}</i>
+            </a>
+            {{ if .category.tags }}
+              <p class="text-tags">
+                {{ delimit .category.tags ", " }}
+              </p>
+            {{ end }}
+          </dd>
 
-        {{ if .pullquote }}
-        <dd class="pullquote mt-1 ml-4 mr-4 pl-2 pr-2 pt-1 pb-1">
-          <b>"</b><i>{{ .pullquote }}</i><b>"</b>
-        </dd>
+          {{ if .pullquote }}
+          <dd class="pullquote mt-1 ml-4 mr-4 pl-2 pr-2 pt-1 pb-1">
+            <b>"</b><i>{{ .pullquote }}</i><b>"</b>
+          </dd>
+          {{ end }}
+
         {{ end }}
+      </dl>
+    </div>
 
-      {{ end }}
-    </dl>
-  </div>
 </div>
+{{ end }}

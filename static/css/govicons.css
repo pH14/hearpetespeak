@@ -1,0 +1,209 @@
+/*
+ *  Govicons v1.4.1 by @540co - https://github.com/540co/govicons - @540co
+ *  License (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+	font-family: 'Govicons';
+	src:url('../fonts/govicons-webfont.eot');
+	src:url('../fonts/govicons-webfont.eot') format('embedded-opentype'),
+		url('../fonts/govicons-webfont.ttf') format('truetype'),
+		url('../fonts/govicons-webfont.woff') format('woff'),
+		url('../fonts/govicons-webfont.woff2') format('woff2'),
+		url('../fonts/govicons-webfont.svg') format('svg');
+	font-style: normal;
+  font-weight: normal;
+}
+
+.gi {
+	-moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+	display: inline-block;
+  font: normal normal normal 14px/1 Govicons;
+  font-size: inherit;
+  text-rendering: auto;
+}
+
+/* makes the font 33% larger relative to the icon container */
+.gi-lg {
+	font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.gi-xs {
+  font-size: .75em;
+}
+.gi-sm {
+  font-size: .875em;
+}
+.gi-1x {
+  font-size: 1em;
+}
+.gi-2x {
+  font-size: 2em;
+}
+.gi-3x {
+  font-size: 3em;
+}
+.gi-4x {
+  font-size: 4em;
+}
+.gi-5x {
+  font-size: 5em;
+}
+.gi-6x {
+  font-size: 6em;
+}
+.gi-7x {
+  font-size: 7em;
+}
+.gi-8x {
+  font-size: 8em;
+}
+.gi-9x {
+  font-size: 9em;
+}
+.gi-10x {
+  font-size: 10em;
+}
+.gi-fw {
+  width: 1.25em;
+  text-align: center;
+}
+.gi-ul {
+  padding-left: 0;
+  margin-left: 2.5em;
+  list-style-type: none;
+}
+.gi-ul > li {
+  position: relative;
+}
+.gi-li {
+	left: -2em;
+ 	position: absolute;
+ 	text-align: center;
+ 	width: 2em;
+ 	line-height: inherit;
+}
+.gi-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em;
+}
+.gi-spin {
+  -webkit-animation: gi-spin 2s infinite linear;
+  animation: gi-spin 2s infinite linear;
+}
+.gi-pulse {
+  -webkit-animation: gi-spin 1s infinite steps(8);
+  animation: gi-spin 1s infinite steps(8);
+}
+@-webkit-keyframes gi-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes gi-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.gi-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.gi-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.gi-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.gi-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.gi-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .gi-rotate-90,
+:root .gi-rotate-180,
+:root .gi-rotate-270,
+:root .gi-flip-horizontal,
+:root .gi-flip-vertical {
+	-webkit-filter: none;
+  filter: none;
+}
+.gi-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.gi-stack-1x,
+.gi-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.gi-stack-1x {
+  line-height: inherit;
+}
+.gi-stack-2x {
+  font-size: 2em;
+}
+.gi-inverse {
+  color: #fff;
+}
+
+/* Gov Icons uses the Unicode Private Use Area (PUA) to ensure screen
+readers do not read off random characters that represent icons */
+.gi-gun:before {
+  content: "\e915";
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}

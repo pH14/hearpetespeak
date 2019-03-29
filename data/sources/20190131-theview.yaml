@@ -5,9 +5,7 @@ description:
 topics:
   -
     categories: "All"
-    direct_link: "https://www.youtube.com/watch?v=PI6IbymfkX8"
-    tags:
-        -     
+    direct_link: "https://www.youtube.com/watch?v=PI6IbymfkX8" 
   -
     categories: "Foreign Policy"
     direct_link: "https://youtu.be/PI6IbymfkX8?t=199"
@@ -20,3 +18,7 @@ topics:
   -
     categories: "Experience"
     direct_link: "https://youtu.be/PI6IbymfkX8?t=278"
+    tags:
+        - South Bend
+        - city leadership
+        - deployment to Afghanistan

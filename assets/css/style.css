@@ -67,12 +67,17 @@ a, a:link, a:hover, a:visited, a.text-primary:hover, a.text-primary:visited {
   max-height: 300px;
 }
 */
-.tab input:checked ~ .tab-content dl dd:nth-child(n+3) {
+
+/* collapses all entries after first two */
+/*.tab input:checked ~ .tab-content dl dd:nth-child(n+3) {
+  display: none;
+}
+*/
+.tab input:checked ~ .tab-content dl dd {
   display: none;
 }
 
 .tab input:checked ~ label .spin {
-  -ms-transform:rotate(360deg);     /* Internet Explorer 9 */
   -webkit-transform:rotate(360deg); /* Chrome, Safari, Opera */
   transform:rotate(360deg);         /* Standard syntax */
 }

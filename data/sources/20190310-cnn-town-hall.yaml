@@ -5,42 +5,46 @@ description: CNN Town Hall
 topics:
   -
     categories: "All"
-    direct_link: "https://www.youtube.com/watch?v=qXD8uFU-xgM"
+    direct_link: "https://www.youtube.com/watch?v=KWXGCKCbg1U"
   -
-    categories: "Climate"
-    direct_link: "https://youtu.be/qXD8uFU-xgM?t=2496"
+    categories: "Experience"
+    direct_link: "https://youtu.be/KWXGCKCbg1U?t=117"
     tags:
-        - flooding
-        - fires
-        - sea level rise
-        - climate security
-        - Paris Accord
-        - renewable energy
-        - carbon tax
+        - mayors
+        - executive government experience
+        - military experience
   -
     categories: "Experience"
-    direct_link: "https://youtu.be/qXD8uFU-xgM?t=110"
-  -
-    categories: "Experience"
-    direct_link: "https://www.youtube.com/watch?v=IRRjQdRUuHs&t=1801"
+    direct_link: "https://youtu.be/KWXGCKCbg1U?t=1812"
+    tags:
+        - McKinsey
+        - business
+        - data
+        - public service
   -
     categories: "Economy"
-    direct_link: "https://youtu.be/qXD8uFU-xgM?t=227" 
+    direct_link: "https://youtu.be/KWXGCKCbg1U?t=236" 
     tags:
         - automation
+        - job transitions
+        - career changes
         - portable benefits
         - Medicare for All
         - guaranteed income
         - universal basic income
   -
     categories: "Healthcare"
-    direct_link: "https://youtu.be/qXD8uFU-xgM?t=459"  
+    direct_link: "https://youtu.be/KWXGCKCbg1U?t=464"  
     tags:
         - Medicare
         - Medicare for All
+        - patient care
+        - bureaucracy
+        - automation
+        - CMS
   -
     categories: "LGBTQ Rights"
-    direct_link: "https://youtu.be/qXD8uFU-xgM?t=742"
+    direct_link: "https://youtu.be/KWXGCKCbg1U?t=749"
     tags:
         - gay marriage
         - transgender rights
@@ -50,32 +54,48 @@ topics:
         - Indiana
   -
     categories: "Foreign Policy"
-    direct_link: "https://youtu.be/qXD8uFU-xgM?t=1169"
+    direct_link: "https://youtu.be/KWXGCKCbg1U?t=1190"
     tags:
         - Afghanistan
-        - national service
-        - veteran services
-        - Venezuela
   -
     categories: "Military"
-    direct_link: "https://youtu.be/qXD8uFU-xgM?t=1169"
+    direct_link: "https://youtu.be/KWXGCKCbg1U?t=1384"
     tags:
-        - Afghanistan
-        - national service
+        - military service
+        - VA
         - veteran services
-        - Venezuela
+        - Vets Community Connections
   -
-    categories: "Democracy"
-    direct_link: "https://www.youtube.com/watch?v=L9jgouNb504&t=1059"
+    categories: "Foreign Policy"
+    direct_link: "https://youtu.be/KWXGCKCbg1U?t=1576"
     tags:
-        - Electoral College
-        - voting rights
-        - Supreme Court
+        - Venezuela
+        - sanctions
+        - free and fair elections
+        - self-determination
   -
     categories: "Technology"
-    direct_link: "https://www.youtube.com/watch?v=IRRjQdRUuHs&t=2075"
+    direct_link: "https://youtu.be/KWXGCKCbg1U?t=2077"
     tags:
         - monopoly policy
         - data privacy
         - Facebook
         - national data policy
+  -
+    categories: "Democracy"
+    direct_link: "https://youtu.be/KWXGCKCbg1U?t=2233"
+    tags:
+        - Electoral College
+        - voting rights
+        - Supreme Court
+  -
+    categories: "Climate"
+    direct_link: "https://youtu.be/KWXGCKCbg1U?t=2507"
+    tags:
+        - flooding
+        - fires
+        - sea level rise
+        - climate security
+        - Paris Accord
+        - renewable energy
+        - carbon tax

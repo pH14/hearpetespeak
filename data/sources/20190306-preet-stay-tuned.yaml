@@ -4,8 +4,65 @@ description: Interview on Preet Bharara's podcast
 
 topics:
   -
-    categories: "Experience"
-    direct_link: "https://radiopublic.com/StayTuned/ep/s1!1f722#t=1328"
+    categories: "All"
+    direct_link: "https://overcast.fm/+MzRlj_eEo/15:43"
+  -
+    categories: "Climate"
+    direct_link: "https://overcast.fm/+MzRlj_eEo/24:49"
+    tags:
+        - historic floods
+        - California fires
+        - Florida sea level rise
+  -
+    categories: "Democracy"
+    direct_link: "https://overcast.fm/+MzRlj_eEo/24:49"
+    tags:
+        - Electoral College reform
+        - US Supreme Court
+  -
+    categories: "Values"
+    direct_link: "https://overcast.fm/+MzRlj_eEo/27:26"
+    tags:
+        - philosophy
+        - Rawls
+        - hard work
+        - originality
+        - innovation
+        - virtue
+        - justice
+        - fairness
+        - Kant
+        - intention
+        - faith
+  -
+    categories: "Values"
+    direct_link: "https://overcast.fm/+MzRlj_eEo/38:23"
+    tags:
+        - well-being
+        - everyday life
+        - good politics
+  -
+    categories: "Personal"
+    direct_link: "https://overcast.fm/+MzRlj_eEo/42:10"
+    tags:
+        - coming out
+        - military service
   -
     categories: "Military"
-    direct_link: "https://radiopublic.com/StayTuned/ep/s1!1f722#t=1328"
+    direct_link: "https://overcast.fm/+MzRlj_eEo/46:57"
+    tags:
+        - military draft
+        - gender equity
+  -
+    categories: "Democracy"
+    direct_link: "https://overcast.fm/+MzRlj_eEo/49:31"
+    tags:
+        - Electoral College
+  -
+    categories: "Tax Policy"
+    direct_link: "https://overcast.fm/+MzRlj_eEo/50:26"
+    tags:
+        - top marginal tax rate
+        - equitable tax code
+        - wealth tax
+        - financial transactions tax

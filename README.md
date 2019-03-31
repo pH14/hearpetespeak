@@ -73,4 +73,4 @@ Anything bugging you about the site? [Create an Issue](https://github.com/pH14/h
 
 ### Design Goals
 
-We want to make Pete's content as universally accessible as possible. Timestamped links, accurate tags, fast page loads, and simple page structure are all part of this. All content should seek to minimize personal opinion.
+We want to make Pete's content as universally accessible as possible. Timestamped links, accurate tags, fast page loads, and simple page structure are all part of this.

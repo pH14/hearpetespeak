@@ -240,6 +240,8 @@ readers do not read off random characters that represent icons */
 
 .fa-dollar-sign:before{content:"\f155"}
 
+.fa-user:before{content:"\f007"}
+
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);

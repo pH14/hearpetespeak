@@ -75,3 +75,7 @@ list:
   - title: Gun Violence Prevention
     icon_class: gi
     icon_name: gi-gun
+
+  - title: Personal
+    icon_class: fas
+    icon_name: fa-user

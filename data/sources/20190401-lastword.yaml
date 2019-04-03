@@ -1,33 +1,50 @@
-title: The Last Word
+title: MSNBC The Last Word
 date: 2019-04-01
 
 topics:
   -
+    categories: "All"
+    direct_link: "https://youtu.be/N1Z6W5YZK1E?t=185"
+  -
     categories: "Tax Policy"
     direct_link: "https://youtu.be/N1Z6W5YZK1E?t=464"
     tags:
-        - Trump's tax cuts
-        - wealth Tax
+        - revenue structure
+        - wealth tax
         - financial transactions tax
+        - infrastructure
+        - education
+        - national security
+        - top income brackets
+        - individual taxes
+        - sales apportionment
         - marginal tax rates
         - corporate taxes
-  -
-    categories: "Democracy"
-    direct_link: "https://youtu.be/N1Z6W5YZK1E?t=624"
-    tags:
         - baby bonds
-        - wealth tax
-        - Democratic policy proposals   
   -
     categories: "Military"
     direct_link: "https://youtu.be/N1Z6W5YZK1E?t=684"
     tags:
         - leaving Afghanistan
+        - Afghan peace talks
         - protecting the homeland
+  -
+    categories: "Democracy"
+    direct_link: "https://youtu.be/N1Z6W5YZK1E?t=819"
+    tags:
+        - agreement among Americans
+        - universal background checks
+        - minimum wage increase
+        - comprehensive immigration reform
+        - pathway to citizenship
+        - Dreamers
+        - border security
+        - bipartisan majorities
+        - Congress
   -
     categories: "Values"
     direct_link: "https://youtu.be/N1Z6W5YZK1E?t=945"
     tags:
         - top leadership
-        - need for diversity
+        - diversity
         - reflecting the people we serve

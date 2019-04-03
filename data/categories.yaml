@@ -79,3 +79,7 @@ list:
   - title: Personal
     icon_class: fas
     icon_name: fa-user
+    
+  - title: Campaign
+    icon_class: fas
+    icon_name: fa-vote-yea

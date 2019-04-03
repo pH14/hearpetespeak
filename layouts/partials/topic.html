@@ -18,7 +18,7 @@
     <input id="tab-{{ .category.title }}" type="checkbox" name="tabs">
     <label for="tab-{{ .category.title }}" class="spin">
       <h2 class="text-primary" id="{{ .category.title }}">
-        <i class="spin text-primary {{ .category.icon_class }} {{ .category.icon_name }} fa-fw"></i>
+        <i class="spin {{ .category.icon_class }} {{ .category.icon_name }} fa-fw"></i>
         <a href="#/{{ .category.title }}">{{ .category.title }}</a>
       </h2>
     </label>

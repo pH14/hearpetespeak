@@ -11,7 +11,7 @@ params:
   description: >- 
     _Hear Pete Speak_ is a catalogue of Pete Buttigieg's responses sourced from publicly-available interviews. 
     We are wholly unaffiliated with the Pete for America campaign. We strive to keep the 
-    catalogue up-to-date, and updates and suggestions can be submitted by anyone via [GitHub](https://github.com/pH14/hearpetespeak).
+    catalogue up-to-date, and requests and volunteer contributions can be submitted by anyone via [GitHub](https://github.com/pH14/hearpetespeak).
 
 taxonomies:
   topics: topic

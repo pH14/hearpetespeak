@@ -1,8 +1,12 @@
 ---
 name: New content
 about: Create a report for a new interview or speech source
+title: 'NEW CONTENT:'
 labels: content
+assignees: ''
+
 ---
+
 ## Summary
 
 title:

@@ -26,3 +26,7 @@ start time:
 
 end time:
 <!-- Ending timestamp for topic reference, ISO format preferred: hh:mm:ss -->
+
+## Additional notes
+
+<!-- Enter any additional notes here -->

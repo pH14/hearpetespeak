@@ -83,3 +83,7 @@ list:
   - title: Campaign
     icon_class: fas
     icon_name: fa-vote-yea
+    
+  - title: Security
+    icon_class: fas
+    icon_name: fa-shield-check

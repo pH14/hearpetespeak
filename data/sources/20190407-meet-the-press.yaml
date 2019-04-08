@@ -1,0 +1,53 @@
+title: Meet the Press
+date: 2019-04-07
+description:
+
+topics:
+  -
+    categories: "All"
+    direct_link: "https://www.youtube.com/watch?v=X4ReHML0BHQ"
+  -
+    categories: "Racial Justice"
+    direct_link: "https://youtu.be/X4ReHML0BHQ?t=359"
+    tags:
+        - income inequality
+        - generational poverty
+        - racist policies
+        - mass incarceraction
+        - neighborhood investment
+        - entrepreneurship
+        - small businesses
+        - minority business owners
+        - minority employees
+        - eviction
+        - legal representation
+        - minority neighborhoods
+        - blight and abandoned properties
+        - police
+        - civil rights training
+        - implicit bias training
+        - trust
+        - results
+  -
+    categories: "Immigration"
+    direct_link: "https://youtu.be/X4ReHML0BHQ?t=526"
+    tags:
+        - immigration policy
+        - families
+        - ICE
+        - immigration and border enforcement
+        - path to citizenship
+  -
+    categories: "Women's Rights"
+    direct_link: "https://youtu.be/X4ReHML0BHQ?t=769"
+    tags:
+        - pro-choice
+        - woman's decision
+  -
+    categories: "Gun Violence Prevention"
+    direct_link: "https://youtu.be/X4ReHML0BHQ?t=840"
+    tags:
+        - Second Amendment
+        - common-sense limits
+        - sporting
+        - self-defense

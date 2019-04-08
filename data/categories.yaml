@@ -87,3 +87,7 @@ list:
   - title: Security
     icon_class: fas
     icon_name: fa-shield-check
+
+  - title: Workers' Rights
+    icon_class: gi
+    icon_name: gi-construction

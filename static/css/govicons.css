@@ -187,6 +187,9 @@ readers do not read off random characters that represent icons */
 .gi-gun:before {
   content: "\e915";
 }
+.gi-construction:before {
+  content: "\e960";
+}
 
 .sr-only {
   border: 0;

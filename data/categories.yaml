@@ -86,7 +86,7 @@ list:
     
   - title: Security
     icon_class: fas
-    icon_name: fa-shield-check
+    icon_name: fa-shield-alt
 
   - title: Workers' Rights
     icon_class: gi

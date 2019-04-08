@@ -242,6 +242,10 @@ readers do not read off random characters that represent icons */
 
 .fa-user:before{content:"\f007"}
 
+.fa-vote-yea:before{content:"\f772"}
+
+.fa-shield-alt:before{content:"\f3ed"}
+
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);

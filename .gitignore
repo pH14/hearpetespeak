@@ -1,5 +1,7 @@
 .DS_Store
 */*.DS_Store
 .gitmodules
+.idea
 public/*
 resources/*
+tmp/*

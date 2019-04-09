@@ -91,3 +91,7 @@ list:
   - title: Workers' Rights
     icon_class: gi
     icon_name: gi-construction
+
+  - title: Human Services
+    icon_class: fas
+    icon_name: fa-users

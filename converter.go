@@ -7,6 +7,8 @@ import (
 	"log"
 	"net/url"
 	"os"
+	"regexp"
+	"sort"
 	"strconv"
 	"strings"
 )
@@ -47,16 +49,10 @@ func main() {
 			log.Fatalf("error: %v", err)
 		}
 
-		newFile, err := os.Create("./tmp/" + file.Name())
-		defer newFile.Close()
-
-		if err != nil {
-			return
-		}
-
-		newLines := make([]string, 1)
+		newLines := make(map[int]string)
+		re := regexp.MustCompile(`(.*)(www)?youtu`)
 		for _, topic := range source.Topics {
-			if strings.HasPrefix(topic.Direct_link, "https://youtu") {
+			if re.MatchString(topic.Direct_link) {
 				parse, err := url.Parse(topic.Direct_link)
 
 				if err != nil {
@@ -74,19 +70,31 @@ func main() {
 				minutes := undividedTimestamp / 60
 				seconds := undividedTimestamp % 60
 
-				newLines = append(newLines, fmt.Sprintf("%v:%v %v | %v\n", minutes, seconds, topic.Prompt, strings.Join(topic.Tags, ", ")))
+				newLines[int(undividedTimestamp)] = fmt.Sprintf("%v:%v %v | %v\n", minutes, seconds, topic.Prompt, strings.Join(topic.Tags, ", "))
 			}
 		}
 
 		if len(newLines) > 0 {
-			_, err := newFile.WriteString(fmt.Sprintf("%v - %v\n", source.Date, source.Title))
+			newFile, err := os.Create("./tmp/" + file.Name()[:len(file.Name())-5] + ".txt")
+			defer newFile.Close()
+
+			if err != nil {
+				return
+			}
+			_, err = newFile.WriteString(fmt.Sprintf("%v - %v\n", source.Date, source.Title))
 
 			if err != nil {
 				panic(err)
 			}
 
-			for _, newLine := range newLines {
-				_, err := newFile.WriteString(fmt.Sprintf("%v", newLine))
+			sortableTimestamps := make([]int, len(newLines))
+			for k := range newLines {
+				sortableTimestamps = append(sortableTimestamps, k)
+			}
+			sort.Ints(sortableTimestamps)
+
+			for _, timestamp := range sortableTimestamps {
+				_, err := newFile.WriteString(fmt.Sprintf("%v", newLines[timestamp]))
 
 				if err != nil {
 					panic(err)

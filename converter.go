@@ -70,7 +70,7 @@ func main() {
 				minutes := undividedTimestamp / 60
 				seconds := undividedTimestamp % 60
 
-				newLines[int(undividedTimestamp)] = fmt.Sprintf("%v:%v %v | %v\n", minutes, seconds, topic.Prompt, strings.Join(topic.Tags, ", "))
+				newLines[int(undividedTimestamp)] = fmt.Sprintf("%02d:%02d %v | %v\n", minutes, seconds, topic.Prompt, strings.Join(topic.Tags, ", "))
 			}
 		}
 

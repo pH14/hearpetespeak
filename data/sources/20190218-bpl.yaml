@@ -79,7 +79,7 @@ topics:
         - private doctors
         - public payer
         - Obamacare
-   -
+  -
     categories: "Tax Policy"
     direct_link: "https://youtu.be/_kMdptLJY6A?t=3031"
     prompt: "Would you be willing to push for more funding for the IRS?"
@@ -90,7 +90,7 @@ topics:
         - national ID
         - e-citizenship
         - bureaucracy
-   -
+  -
     categories: "Immigration"
     direct_link: "https://youtu.be/_kMdptLJY6A?t=3134"
     prompt: "We have a lot of people trying to get into this country because it's not safe in El Salvador, Guatemala, and Nicaragua. Do we have to try again to do nation-building in those countries so it's safe for people to stay where their home is?"
@@ -103,7 +103,7 @@ topics:
         - self-determination
         - democracy
         - human rights
-   -
+  -
     categories: "Gun Violence Prevention"
     direct_link: "https://youtu.be/_kMdptLJY6A?t=3260"
     prompt: "What are your thoughts on gun control?"
@@ -116,7 +116,7 @@ topics:
         - police officers
         - weapons of war
         - American neighborhoods
-   -
+  -
     categories: "Democracy"
     direct_link: "https://youtu.be/_kMdptLJY6A?t=3260"
     prompt: "What are your thoughts on campaign finance?"

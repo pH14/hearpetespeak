@@ -5,17 +5,17 @@ description: CNN Town Hall
 topics:
   -
     categories: "All"
-    direct_link: "https://www.youtube.com/watch?v=KWXGCKCbg1U"
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k"
   -
     categories: "Experience"
-    direct_link: "https://youtu.be/KWXGCKCbg1U?t=117"
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k&t=117"
     tags:
         - mayors
         - executive government experience
         - military experience
   -
     categories: "Experience"
-    direct_link: "https://youtu.be/KWXGCKCbg1U?t=1812"
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k&t=1812"
     tags:
         - McKinsey
         - business
@@ -23,7 +23,7 @@ topics:
         - public service
   -
     categories: "Economy"
-    direct_link: "https://youtu.be/KWXGCKCbg1U?t=236" 
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k&t=236" 
     tags:
         - automation
         - job transitions
@@ -34,7 +34,7 @@ topics:
         - universal basic income
   -
     categories: "Healthcare"
-    direct_link: "https://youtu.be/KWXGCKCbg1U?t=464"  
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k&t=464"  
     tags:
         - Medicare
         - Medicare for All
@@ -44,7 +44,7 @@ topics:
         - CMS
   -
     categories: "LGBTQ Rights"
-    direct_link: "https://youtu.be/KWXGCKCbg1U?t=749"
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k&t=749"
     tags:
         - gay marriage
         - transgender rights
@@ -54,12 +54,12 @@ topics:
         - Indiana
   -
     categories: "Foreign Policy"
-    direct_link: "https://youtu.be/KWXGCKCbg1U?t=1190"
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k&t=1190"
     tags:
         - Afghanistan
   -
     categories: "Military"
-    direct_link: "https://youtu.be/KWXGCKCbg1U?t=1384"
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k&t=1384"
     tags:
         - military service
         - VA
@@ -67,7 +67,7 @@ topics:
         - Vets Community Connections
   -
     categories: "Foreign Policy"
-    direct_link: "https://youtu.be/KWXGCKCbg1U?t=1576"
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k&t=1576"
     tags:
         - Venezuela
         - sanctions
@@ -75,7 +75,7 @@ topics:
         - self-determination
   -
     categories: "Technology"
-    direct_link: "https://youtu.be/KWXGCKCbg1U?t=2077"
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k&t=2077"
     tags:
         - monopoly policy
         - data privacy
@@ -83,14 +83,14 @@ topics:
         - national data policy
   -
     categories: "Democracy"
-    direct_link: "https://youtu.be/KWXGCKCbg1U?t=2233"
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k&t=2233"
     tags:
         - Electoral College
         - voting rights
         - Supreme Court
   -
     categories: "Climate"
-    direct_link: "https://youtu.be/KWXGCKCbg1U?t=2507"
+    direct_link: "https://www.youtube.com/watch?v=gLz_1XoQd3k&t=2507"
     tags:
         - flooding
         - fires

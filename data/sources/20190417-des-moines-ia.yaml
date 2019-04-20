@@ -1,0 +1,38 @@
+title: Campaign Stop - Des Moines, Iowa
+date: 2019-04-17
+description:
+
+topics:
+  -
+    categories: "All"
+    direct_link: "https://www.youtube.com/watch?v=E8XjqniZeLg"
+  -
+    categories: "Climate"
+    direct_link: "https://youtu.be/E8XjqniZeLg?t=1446"
+    prompt: "What are your plans to address climate change?"
+    tags:
+        - destructive power
+        - Green New Deal
+        - economic opportunity
+        - mobilization
+        - national purpose
+        - carbon tax
+        - R&D
+        - energy storage
+        - solar
+        - wind
+        - carbon capture and storage
+        - building retrofits
+        - energy efficiency
+        - energy independence
+        - net-zero emissions
+  -
+    categories: "Gun Violence Prevention"
+    direct_link: "https://youtu.be/E8XjqniZeLg?t=1663"
+    prompt: "What steps will you take to try to ensure adequate funding for gun violence research?"
+    tags:
+        - Gang Violence Intervention
+        - ending the CDC ban
+        - public health
+        - common-sense gun reform
+        - Second Amendment

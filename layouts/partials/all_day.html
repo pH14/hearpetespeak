@@ -1,0 +1,13 @@
+<dd>
+	{{ range sort . "title" "asc" }}
+	<dl>
+	  {{ .date }} &middot; {{ .title }} &middot;       
+
+	  {{ range .topics }}
+	    {{ if (eq (index . "categories") "All") }}
+	      <a href="{{- .direct_link -}}">{{- .direct_link -}}</a>
+	    {{ end }}
+	  {{ end }}
+	</dl>
+	{{ end }}
+</dd>

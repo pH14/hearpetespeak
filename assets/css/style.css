@@ -416,3 +416,5 @@ a:visited {
   color: inherit;
 }
 */
+.u-text-center {
+  text-align: center !important; }

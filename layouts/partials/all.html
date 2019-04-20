@@ -4,32 +4,46 @@
       {{ .Site.Params.description | markdownify }}
     </div>
 
-    <h1>All the links</h1>
-
-    <div class="mt-1">
-      <a href="https://herepetespeak.com">Breakdown by topic</a>
-
+    <div class="tab-content u-text-center justified mt-1 pl-2 pr-2">
+      <!-- <h1 class="u-text-center">All the Links!</h1> -->
+      <div class="mt-1">
+        View by <a href="/">topic breakdown</a>
+      </div>
     </div>
   </div>
 </div>
+
 <div class="row">
-  <div class="twelve columns p-2 mt-2">
-    {{ range sort .Site.Data.categories.list "title" }}
-      {{ . }}
+  <div class="twelve columns p-2 mt-0">
+    <dd>
+    {{ $currentDayBucket := "" }}
+    {{ $entriesForDay := slice }}
 
+    {{ $totalLength := len .Site.Data.sources }}
 
-    {{ end }}
-
-      {{ range sort .Site.Data.categories.list "title" }}
-        {{ if (eq "All" .title) }}
-          <a href="/#/{{ .title }}">{{ .title }}</a> &middot;
-          {{ $all_jump_to_links = $all_jump_to_links | append .title }}
-        {{ end }}
+    {{ range $index, $element := sort .Site.Data.sources "date" "desc" }}
+      {{ if (eq $currentDayBucket "") }}
+        {{ $currentDayBucket = .date }}
+        {{ $entriesForDay = slice }}
       {{ end }}
+
+      {{ if (ne $currentDayBucket .date) }}
+        {{ partial "all_day.html" $entriesForDay }}
+        {{ $currentDayBucket = .date }}
+        {{ $entriesForDay = slice }}
+      {{ end }}
+
+      {{ $entriesForDay = $entriesForDay | append . }}
+
+      {{ if (eq $index (sub $totalLength 1)) }}
+        {{ partial "all_day.html" $entriesForDay }}
+      {{ end }}
+    {{ end }}
+    </dd>
   </div>
 </div>
 <div class="container row">
   <div class="col-md text-center rounded border-light">
     {{ partial "footer.html" . }}
   </div>
-</div>
+</div> 

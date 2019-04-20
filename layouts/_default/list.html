@@ -2,8 +2,6 @@
 
 {{ .Content }}
 
-hi
-
 <ul>
     {{ $type := .Type }}
     {{ range $key, $value := .Data.Terms.ByCount.Reverse }}

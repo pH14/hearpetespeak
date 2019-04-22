@@ -1,0 +1,75 @@
+title: Working Hero Iowa Town Hall
+date: 2019-04-16
+description:
+
+topics:
+  -
+    categories: "All"
+    direct_link: "https://www.youtube.com/watch?v=ctUbLZoLgSs"
+  -
+    categories: "Values"
+    direct_link: "https://www.youtube.com/watch?v=ctUbLZoLgSs&t=273"
+    tags:
+        - freedom
+        - fairness
+        - democracy
+        - security
+        - organizing
+        - marriage
+        - spirit of respect
+        - decency
+        - treatment of people who disagree
+  -
+    categories: "Criminal Justice"
+    direct_link: "https://youtu.be/ctUbLZoLgSs?t=722"
+    prompt: "Would you elaborate on your views on criminal justice?"
+    tags:
+        - criminal justice system
+        - non-violent offenses
+        - unreasonable mandatory minimums
+        - inequity
+        - white-collar crime
+        - First Step Act
+        - criminal justice reform
+        - industry running prisons
+        - state policy
+        - prolonged solitary confinement
+        - return to society
+  -
+    categories: "Families"
+    direct_link: "https://www.youtube.com/watch?v=ctUbLZoLgSs&t=924"
+    prompt: "Do you have any solutions or policies that you would put in place that would help families access quality childcare?"
+    tags:
+        - childcare
+        - paid family leave
+        - parental leave
+        - elder care
+        - child allowance
+        - child tax credit
+  -
+    categories: "Healthcare"
+    direct_link: "https://youtu.be/ctUbLZoLgSs?t=1055"
+    prompt: "Do you have some specifics on the pathway to universal healthcare?"
+    tags:
+        - Medicare
+        - Medicare for All
+        - national healthcare spending
+        - good outcomes
+        - purchasing power
+        - setting rates
+        - payment processing
+        - bureaucracy
+        - single payer model
+        - basic medical needs
+  -
+    categories: "Education"
+    direct_link: "https://www.youtube.com/watch?v=ctUbLZoLgSs&t=1603"
+    tags:
+        - federal role in education
+        - supporting teachers
+        - supporting principals
+        - low-income school districts
+        - grant program to elevate teacher pay
+        - Title I schools
+        - professional development
+        - empowering teachers and principals

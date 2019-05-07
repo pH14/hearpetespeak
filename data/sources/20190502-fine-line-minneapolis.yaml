@@ -1,0 +1,65 @@
+title: Fine Line Theater - Minneapolis, MN
+date: 2019-05-02
+description:
+
+topics:
+  -
+    categories: "All"
+    direct_link: "https://www.youtube.com/watch?v=4jKYZVJ3h_g"
+  -
+    categories: "Foreign Policy"
+    direct_link: "https://youtu.be/4jKYZVJ3h_g?t=763"
+    prompt: "Can you talk about your stance on regime change wars?"
+    tags:
+        - military
+        - international community
+        - human rights
+        - democracy
+        - moral authority
+        - security
+        - US credibility
+  -
+    categories: "Priorities"
+    direct_link: "https://www.youtube.com/watch?v=4jKYZVJ3h_g&t=914"
+    prompt: "What will you do in your first 100 days?"
+    tags:
+        - democratic reform
+        - HR1
+        - anti-corruption
+        - Supreme Court reform
+        - Electoral College reform
+        - defending our democracy
+        - climate change
+  -
+    categories: "Technology"
+    direct_link: "https://www.youtube.com/watch?v=4jKYZVJ3h_g&t=1008"
+    prompt: "What are your thoughts on how to leverage technology to make the government more productive?"
+    tags:
+        - good technology
+        - efficiency
+        - lower cost
+        - data
+        - automation
+        - bias and inequity
+        - artificial intelligence
+        - machine learning
+  -
+    categories: "Priorities"
+    direct_link: "https://www.youtube.com/watch?v=4jKYZVJ3h_g&t=1339"
+    prompt: "What issues merit being discussed sooner and in greater detail?"
+    tags:
+        - climate
+        - economic empowerment
+        - wages
+        - labor standards
+        - education
+        - healthcare
+        - infrastructure
+  -
+    categories: "Values"
+    direct_link: "https://www.youtube.com/watch?v=4jKYZVJ3h_g&t=1536"
+    prompt: "Why don't you seem angrier?"
+    tags:
+        - Dr. King
+        - politics
+        - hope

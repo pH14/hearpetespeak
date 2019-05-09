@@ -5,10 +5,11 @@ description:
 topics:
   -
     categories: "All"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=675"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=847"
   -
     categories: "Racial Justice"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=796"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=948"
+    prompt: "Why should communities of color vote for you?"
     tags:
         - diversity
         - opportunity for all
@@ -24,7 +25,7 @@ topics:
         - political representation
   -
     categories: "Democracy"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=1008"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=1180"
     tags:
         - shoring up our democracy
         - voting
@@ -37,7 +38,7 @@ topics:
         - political representation for Puerto Rico
   -
     categories: "Racial Justice"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=1112"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=1285"
     tags:
         - police force
         - South Bend
@@ -52,7 +53,7 @@ topics:
         - violent white nationalism 
   -
     categories: "Criminal Justice"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=1653"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=1831"
     tags:
         - mass incarceration
         - non-violent drug offenses
@@ -66,12 +67,12 @@ topics:
         - hiring and community practices
   -
     categories: "Marijuana"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=1653"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=1831"
     tags:
         - legalizing marijuana
   -
     categories: "Military"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=1829"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=2003"
     prompt: "As president, what would your stance be on the use of drones in warfare?"
     tags:
         - bar for military force
@@ -82,8 +83,8 @@ topics:
         - American values
   -
     categories: "Housing"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=1975"
-    prompt: "As president, what policies would you implement to mitigate the growing threat of gentrification?"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=2148"
+    prompt: "As president, what policies or structures would you implement to mitigate the growing threat of gentrification?"
     tags:
         - access to housing
         - HUD
@@ -98,7 +99,7 @@ topics:
         - reducing housing cost
   -
     categories: "Workers' Rights"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=2054"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=2319"
     tags:
         - living wage
         - necessities of life
@@ -112,9 +113,13 @@ topics:
         - National Labor Relations Board
   -
     categories: "Economy"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=2278"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=2418"
     tags:
+        - working middle class
+        - labor
         - economic growth
+        - GDP
+        - stock market
         - median income
         - democratic capitalism
         - FDR era
@@ -122,7 +127,8 @@ topics:
         - lower- and middle-income
   -
     categories: "Gun Violence Prevention"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=2440"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=2614"
+    prompt: "How do you plan on keeping the people of America safe from mass shootings in the future?"
     tags:
         - Second Amendment
         - Constitutional rights
@@ -135,7 +141,7 @@ topics:
         - democratic reform
   -
     categories: "Racial Justice"
-    direct_link: "https://youtu.be/rRzyd0rvloA?t=2630"
+    direct_link: "https://www.facebook.com/790086818041478/videos/2623535357676070/?t=2746"
     tags:
         - race and policing
         - body cameras

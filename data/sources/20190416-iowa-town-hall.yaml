@@ -5,10 +5,10 @@ description:
 topics:
   -
     categories: "All"
-    direct_link: "https://www.youtube.com/watch?v=ctUbLZoLgSs"
+    direct_link: "https://www.facebook.com/NowThisPolitics/videos/2317318081890632/"
   -
     categories: "Values"
-    direct_link: "https://www.youtube.com/watch?v=ctUbLZoLgSs&t=273"
+    direct_link: "https://www.facebook.com/NowThisPolitics/videos/2317318081890632/?t=197"
     tags:
         - freedom
         - fairness
@@ -21,7 +21,7 @@ topics:
         - treatment of people who disagree
   -
     categories: "Criminal Justice"
-    direct_link: "https://youtu.be/ctUbLZoLgSs?t=722"
+    direct_link: "https://www.facebook.com/NowThisPolitics/videos/2317318081890632/?t=647"
     prompt: "Would you elaborate on your views on criminal justice?"
     tags:
         - criminal justice system
@@ -37,7 +37,7 @@ topics:
         - return to society
   -
     categories: "Families"
-    direct_link: "https://www.youtube.com/watch?v=ctUbLZoLgSs&t=924"
+    direct_link: "https://www.facebook.com/NowThisPolitics/videos/2317318081890632/?t=848"
     prompt: "Do you have any solutions or policies that you would put in place that would help families access quality childcare?"
     tags:
         - childcare
@@ -48,7 +48,7 @@ topics:
         - child tax credit
   -
     categories: "Healthcare"
-    direct_link: "https://youtu.be/ctUbLZoLgSs?t=1055"
+    direct_link: "https://www.facebook.com/NowThisPolitics/videos/2317318081890632/?t=978"
     prompt: "Do you have some specifics on the pathway to universal healthcare?"
     tags:
         - Medicare
@@ -63,7 +63,8 @@ topics:
         - basic medical needs
   -
     categories: "Education"
-    direct_link: "https://www.youtube.com/watch?v=ctUbLZoLgSs&t=1603"
+    direct_link: "https://www.facebook.com/NowThisPolitics/videos/2317318081890632/?t=1510"
+    prompt: "What do you have to say about the federal role in education and the future of education?"
     tags:
         - federal role in education
         - supporting teachers
